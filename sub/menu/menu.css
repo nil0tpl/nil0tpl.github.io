@@ -1,0 +1,261 @@
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #363636;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #ed681c;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #ca5714;
+}
+
+
+
+*{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    margin: 8px 0px;
+    position: sticky;
+    top: 0px;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+.navbar::before{
+    content: "";
+    position: absolute;
+    background-color: #363636;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.3;
+    filter: blur(5px);
+}
+#logo{
+    width: 63px;
+    height: 69px;
+    margin: 0px 15px;
+}
+.logo{
+    width: 150px;
+    /* border: 2px solid red; */
+
+}
+.cont{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    /* border: 2px solid red; */
+
+}
+.container{
+    margin: auto;
+    /* border: 2px solid red; */
+
+}
+.items{
+    margin: 2px 28px;
+}
+.items a{
+    /* border: 2px solid red; */
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-weight: 200;
+    font-size: 21px;
+    letter-spacing: 3px;
+    border-radius: 18px;
+    color: #000000;
+    text-decoration: none;
+    padding: 6px 20px;  
+}
+.items a:hover{
+    color: #000000;  
+    font-weight: 600;
+    text-decoration: underline;
+}
+#useless{
+    width: 150px;
+    height: 69px;
+    /* border: 2px solid red; */
+}
+
+
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0px;
+    height: 100px;
+    color: white;
+}
+#home h2{
+    font-family: "Playwrite CU", cursive;
+    font-size: 1.5em;
+    margin: 0px;
+    color: #000000;
+}
+#home p{
+    font-family: "League Gothic", sans-serif;
+    font-size: 5em;
+    margin: 0px;
+    letter-spacing: 10px;
+    color: #000000;
+}
+
+
+
+#download-menu{
+    height: 230px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 75px 0px;
+}
+#download-menu h3{
+    font-size: 1.9em;
+    font-family: "Lexend Zetta", sans-serif;
+}
+#download-menu p a{
+    color: #000000;
+    padding: 25px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 33px;
+    background-color: #e44100;
+    border: 2px solid black;
+}
+#download-menu p a:hover{
+    background-color: #ffdbcd;
+    border: 2px solid #e44100;
+}
+
+
+
+
+footer{
+    height: 40px;
+    background-color: #a02d00;
+    border-top: 1px solid #ffffff;
+}
+footer p{
+    text-align: center;
+    font-family: "Tai Heritage Pro", serif;
+    font-size: 15px;
+    margin: 0px;
+    padding-top: 5px;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+/* Media Query */
+
+@media screen and (max-width: 320px){
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .navbar{
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        height: 97px;
+        position: sticky;
+        top: 0px;
+        left: 0px;
+    }
+    .navbar::before{
+        content: "";
+        position: absolute;
+        top: 0px;
+    }
+    .logo{
+        width: 38px;
+        height: 33px;
+        margin-top: 13px;
+    }
+    #logo{
+        width: 33px;
+        height: 39px;
+        margin: 0px 3px;
+        filter: invert(100%);
+    }
+    .container{
+        margin: 0px 0px;
+        height: 38px;
+        margin-top: 1px;
+        width: 100%;
+    }
+    .cont{
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .items{
+        margin: 2px 0px;
+    }
+    .items a{
+        font-size: 10px;
+        padding: 0px 7px;
+        width: 23px;
+    }
+    #useless{
+        display: none;
+    }
+
+
+
+
+    #home{
+        margin: 80px 0px;
+        height: 135px;
+    }
+    #home h2{
+        font-size: 20px;
+        margin: 12px;
+    }
+    #home p{
+        font-size: 55px;
+        margin: 0px;
+        letter-spacing: 8px;
+    }
+
+
+    #download-menu h3{
+        font-size: 16px;
+        margin: 23px 0px;
+    }
+    #download-menu p a{
+        font-size: 25px;
+        margin: 23px 0px;
+    }
+    #download-menu p{
+        margin: 30px 0px;
+    }
+
+
+    footer p{
+        font-size: 12px;
+    }
+}

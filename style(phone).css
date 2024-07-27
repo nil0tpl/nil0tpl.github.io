@@ -1,0 +1,185 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#backtotop{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+
+.navbar{
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    height: 97px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+.navbar::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+}
+.logo{
+    width: 38px;
+    height: 33px;
+    margin-top: 13px;
+}
+#logo{
+    width: 33px;
+    height: 39px;
+    margin: 0px 3px;
+    filter: invert(100%);
+}
+.container{
+    margin: 0px 0px;
+    height: 38px;
+    margin-top: 1px;
+    width: 100%;
+}
+.cont{
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+.items{
+    margin: 2px 0px;
+}
+.items a{
+    font-size: 10px;
+    padding: 0px 7px;
+    width: 23px;
+}
+#useless{
+    display: none;
+}
+
+
+
+
+#home{
+    margin: 76px 0px;
+    height: 133px;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+#home h2{
+    font-size: 20px;
+    margin: 12px;
+}
+#home p{
+    font-size: 55px;
+    margin: 0px;
+    letter-spacing: 8px;
+}
+
+
+
+
+
+
+.serv-cont{
+    flex-direction: column;
+    height: 800px;
+    /* border: 2px solid blue; */
+}
+.serv{
+    margin: 10px 0px;
+    width: 240px;
+}
+.serv h4{
+    font-size: 23px;
+    margin-top: 35px;
+}
+.serv p{
+    font-size: 16px;
+}
+
+
+
+
+
+
+.reserve-cont{
+    height: 250px;
+}
+#reserv-1{
+    margin: 0px 0px
+}
+#reserv-2{
+    display: none;
+}
+#reserv-1 p{
+    font-size: 30px;
+}
+#reserv-1 a{
+    font-size: 13px;
+}
+
+
+
+
+
+#gallery{
+    height: 550px;
+}
+.gall-cont{
+    display: flex;
+    flex-direction: column;
+}
+.gall-img img{
+    width: 240px;
+    height: 135px;
+    margin: 10px 0px;
+}
+#gall-4 a{
+    font-size: 13px;
+}
+
+
+
+
+#contact{
+    height: 500px;
+    margin-top: 110px;
+}
+#contact h2{
+    padding-top: 60px;
+    font-size: 30px;
+}
+.contact-cont{
+    flex-direction: column;
+    align-items: center;
+}
+.contact-logo{
+    width: 85px;
+    height: 85px;
+    margin: 0px 0px;
+}
+
+
+
+
+footer p{
+    font-size: 12px;
+}
+
+
+
+#btn{
+    font-size: 11px;
+    padding: 8px 12px;
+    border-radius: 100px;
+    bottom: 10px;
+    right: 10px;
+}
