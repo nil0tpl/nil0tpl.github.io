@@ -107,9 +107,10 @@ body{
 #home{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin: 100px 0px;
-    height: 208px;
+    height: 360px;
     color: white;
 }
 #home::before{
@@ -140,7 +141,7 @@ body{
 
 
 #services{
-    margin-top: 255px;
+    height: 500px;
 }
 .serv-cont{
     height: 500px;
