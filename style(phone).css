@@ -62,8 +62,8 @@ body{
 
 
 #home{
-    margin: 76px 0px;
-    height: 133px;
+    margin: 44px 0px;
+    height: 360px;
 }
 #home::before{
     content: "";
@@ -88,10 +88,12 @@ body{
 
 
 
+#services{
+    height: 900px;
+}
 .serv-cont{
     flex-direction: column;
     height: 900px;
-    margin-top: 320px;
     /* border: 2px solid blue; */
 }
 .serv{
@@ -111,8 +113,8 @@ body{
 
 
 
-.reserve-cont{
-    height: 250px;
+.reserv-cont{
+    height: 437px;
 }
 #reserv-1{
     margin: 0px 0px
