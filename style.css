@@ -109,8 +109,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 100px 0px;
-    height: 360px;
+    height: 554px;
     color: white;
 }
 #home::before{
